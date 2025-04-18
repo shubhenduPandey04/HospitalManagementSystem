@@ -1,6 +1,8 @@
-Patient API
+Patient API:
+
 Get:
 http://localhost:8082/api/v1/patients
+
 Post:
 http://localhost:8082/api/v1/patients
 {
@@ -8,13 +10,19 @@ http://localhost:8082/api/v1/patients
     "gender":"Male",
     "age":16
 }
+
+Pagination:
+
 Get:
 http://localhost:8082/api/v1/patients?page=0&size=1
+
 Put:
 http://localhost:8082/api/v1/patients/2
 
 Monitoring:
+
 Get:
 http://localhost:8082/actuator/health
+
 Get:
 http://localhost:8082/actuator/metrics
